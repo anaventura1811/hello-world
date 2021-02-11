@@ -5,6 +5,8 @@ h1 {
 }
 body {
     font-size: 16px;
+}
+body, div#box-logo-do-site {
     background-color: #5c88c4;
 }
 #foto-perfil {
@@ -26,9 +28,8 @@ p, h4, li {
     top: 0;
     width: 100%;
     text-align: center;
-    
-
 }
+
 .navigation li {
     padding: 0 20px;
     display: inline-block;
@@ -40,13 +41,18 @@ h4, ul.lista-skills { text-align: center;
 }
 a.menu-itens {
     text-decoration: none;
+    color: white;
 } 
 
-#site {
+#site, #logo-do-site {
     width: 88%;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
 
+
+}
 h4 {
 
 }
