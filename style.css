@@ -1,0 +1,52 @@
+h1, h2.section-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+
+}
+body {
+    font-size: 16px;
+    background-color: #5c88c4;
+}
+#foto-perfil {
+    width: 300px;
+}
+
+p, h4, li {
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify;
+}
+
+.navigation {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    background-color: inherit;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    
+
+}
+.navigation li {
+    padding: 0 20px;
+    display: inline-block;
+    color: white;
+}
+
+
+h4, ul.lista-skills { text-align: center;
+}
+a.menu-itens {
+    text-decoration: none;
+} 
+
+#site {
+    width: 88%;
+}
+
+
+h4 {
+
+}
