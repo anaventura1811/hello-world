@@ -73,7 +73,7 @@ h3 {
 
 }
 
-h2.section-title {
+h2.section-title, h1.section-title{
     font-size: 2em;
 }
 
@@ -106,13 +106,15 @@ a.links-no-texto {
 }
 
 div.skill, div#skills {
-    display: grid;
-    float: inline-start;
+    display:-moz-deck;
     padding: 20px, 20px;
     text-align: center;
     background-color: #004aad;
     border-radius: 10%;
     color: white;
+    width: 80%;
+    text-orientation: upright;
+    
 }
 
  div#foto-container {
@@ -120,17 +122,30 @@ div.skill, div#skills {
     padding-top: 20px;
     padding-right: 20px;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-left: 40%;
     margin-right: auto;
     table-layout: auto;
+    display:table-cell;
+}
+div#sobre {
+    display:inline-block;
+    margin-left: 10%;
+    text-align: center;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display:flexbox;
+    padding-left: auto;
+    text-overflow: ellipsis;
+    text-anchor: middle;
+    text-orientation: sideways-right;
+}
+
+p#foto-container {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 0.5em;
 }
