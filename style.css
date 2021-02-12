@@ -10,10 +10,10 @@ body, div#box-logo-do-site {
     background-color: #5c88c4;
 }
 #foto-perfil {
-    width: 300px;
+    width: 600px;
 }
 
-p, h4, li {
+p, h3, li {
     font-family: 'Courier New', Courier, monospace;
     text-align:justify;
 }
@@ -37,7 +37,8 @@ p, h4, li {
 }
 
 
-h4, ul.lista-skills { text-align: center;
+h3, ul.lista-skills, li.item-lista-skill, h2.section-title { 
+    text-align: center;
 }
 a.menu-itens {
     text-decoration: none;
@@ -46,13 +47,24 @@ a.menu-itens {
 
 #site, #logo-do-site {
     width: 88%;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
 }
 
+h2.section-title, ul.lista-skills, li.item-lista-skill {
+    letter-spacing: 1px;
+    font-weight: 500;
+}
 
+h3 {
+    font-weight: 600;
+    font-size: 1.25em;
 
 }
-h4 {
 
+h2.section-title {
+    font-size: 2em;
+}
+li.item-lista-skill {
+    list-style-type: none;
 }
