@@ -1,61 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfólio de Ana Ventura</title>
-    <style></style>
+    <title>Ana Ventura</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    </style>
 </head>
-<body>
-    <h1>Ana Flávia Pereira Ventura</h1>
-    <nav><ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projetos-pessoais">Projetos Pessoais</a></li>
+<body id="site">
+    <nav class="navigation"><ul>
+        <li><a href="#sobre" class="menu-itens">Profile</a></li>
+        <li><a href="#skills-section" class="menu-itens">Skills</a></li>
+        <li><a href="#contato" class="menu-itens">Contact Info</a></li>
+        <li><a href=""></a></li>
     </ul></nav>
- <div id="sobre"><img src="./Fotos/Foto-Ana.jpg" alt="Foto de Ana Ventura" width="300px">
-    <h3><em>Sobre</em></h3>
-    <p> Estudante de Desenvolvimento Web Full-Stack na Trybe (Turma 10 | Tribo A) e doutoranda <br>
-       em Sociologia pela Universidade Federal de Sergipe (UFS).<br>
-       Sou também mestre em Relações Internacionais pela PUC Minas e graduada em Comunicação <br>
-       Social/Jornalismo pela Universidade Federal de Viçosa (UFV).<br></p>
-    <p>Mineira, nascida e criada na região metropolitana de BH, mas um pouco sergipana no coração.<br>
-       E também cozinheira, escritora e cronista nas horas vagas.</p>
-    <p>Sou ávida por conhecimento e apaixonada por tecnologia, educação e direitos humanos.<br>
-       Acredito no poder transformador destas três paixões e meu grande sonho é gerar impacto social<br>
-       através do meu trabalho nestas áreas. Além disso, cozinho e leio bastante, além de resenhar<br>
-       sobre isso no blog <a href="https://entrepratoseafetos.com" target="_blank">Entre Pratos e Afetos</a> e
-       no insta <a href="https://www.instagram.com/lidosdaninha/" target="_blank">Lidos da Ninha</a>.</p>
- </div>
- <div id="skills"><h3><em>Skills</em></h3>
-    <h4>Desenvolvimento Web</h4>
-        <ul>
-            <li>Git e GitHub</li>
-            <li>Command lines</li>
-            <li>HTML</li>
-            
+<br><br><br>
+ <div id="box-logo-do-site"><img src="Fotos/Logo-Portfolio.png" id="logo-do-site" alt="Logotipo do site"></div> 
+ <br><br>
+ <main>
+ <h2 class="section-title"></h2> 
+ <div id="sobre">
+    <div id="foto-container"><img src="./Fotos/Ana-Ventura-Perfil.jpg" alt="Foto de Ana Ventura" id="foto-perfil"></div>
+    <div id="profile"><h1 class="section-title">Ana Ventura</h1><p> I have just gotten started as a Full-Stack Web Development Student at Trybe (Class 10 | Trybe A | February 2021). 
+        Moreover, I am also a PhD candidate in Sociology at Universidade Federal de Sergipe (UFS - Federal University of Sergipe) and 
+        am currently researching solidarity and refugees' systems of protection in Latin America.
+        I hold a master's degree in International Affairs (Pontifical Catholic University - PUC Minas) and a bachelor's degree in 
+        Communication - major in Journalism (Universidade Federal de Viçosa - Federal University of Viçosa, UFV).</p>
+     <p>Travel and sports enthusiast, always eager to learn. Born and raised in Belo Horizonte region, Minas Gerais, Brazil, but Aracaju (Sergipe, all of Northeast Brazil, to be honest) feels like my second home.
+        I am also a cook and a blog writer in my spare time.</p> 
+     <p>Strongly moved by technology, research, education and human rights. I love learning new things, and strongly believe in the transformative power 
+        of education, techonology and human rights in order to build a better future for humankind. 
+        My greatest dream is to positively impact and improve people's lives through my work in those fields. Apart from that, I usually spend a lot 
+        of time reading and testing new recipes, and every once in while such experiences are posted either on my blog 
+        <a href="https://entrepratoseafetos.com" target="_blank" class="links-no-texto">Entre Pratos e Afetos</a> or
+        on my Instagram <a href="https://www.instagram.com/lidosdaninha/" target="_blank" class="links-no-texto">Lidos da Ninha</a>.</p> </div>  
+       </div>
+<h2 class="section-title" id="skills-section">Skills</h2>
+ <div id="skills">
+    <h3>Dev</h3>
+        <ul class="lista-skills">
+            <li class="item-lista-skill">Git & GitHub</li>
+            <li class="item-lista-skill">Command lines</li>
+            <li class="item-lista-skill">HTML</li>
+            <li class="item-lista-skill">CSS</li>   
         </ul>
-    <h4>Pesquisa em Ciências Sociais</h4>
-        <ul>
-            <li>Estudos comparados</li>
-            <li>Métodos mistos de pesquisa em Ciências Sociais</li>
-            <li>Análise de políticas públicas</li>
-            <li>Pesquisa na área de direitos humanos, política internacional, migração e refúgio</li>
+    <h3>Research in Social Sciences</h3>
+        <ul class="lista-skills">
+            <li class="item-lista-skill">Comparative Studies.</li>
+            <li class="item-lista-skill"> Mixed methods for research in Social Sciences.</li>
+            <li class="item-lista-skill">Public policy analysis.</li>
+            <li class="item-lista-skill">Research on human rights, <br> international politics, migration and refugees.</li>
         </ul>
-    <h4>Comunicação, Consultoria e Assessoria</h4>
-       <ul>
-            <li>Inglês fluente</li>
-            <li>Tradução</li>
-            <li>Organização de eventos online e presenciais</li>
-       </ul>
-        
+    <h3>Communication and Consultancy</h3>
+        <ul class="lista-skills">
+             <li class="item-lista-skill">Fluency in English and Native Portuguese Speaker<br>
+             (can speak a little bit of Spanish as well)</li>
+             <li class="item-lista-skill">Translation</li>
+             <li class="item-lista-skill">Events coordination</li>
+        </ul>
+        <br>
  </div>
- <div id="projetos-pessoais"><h3>Projetos Pessoais</h3>
-    <p></p>
-
+ <br> 
  </div>
+</main>
+<br><br>
+<div id="contato"><h2 class="section-title">Contato</h2>
+<a href="https://www.linkedin.com/in/ana-flavia-pereira-ventura" id="link-do-linkedin">LinkedIn</a></div>
+<br><br><br><br><br><br>
 
+ <div><a href="#sobre" id="retorne-ao-inicio">Retorne ao Início</a></div>
+<br><br><br><br>
 
- <a href="">LinkedIn</a>
- <a href="#bio">Retorne ao Início</a>
+ <footer><p id="footer-container">Todos os direitos reservados a Ana Ventura. 2021. Primeiro site desenvolvido como estudante da Trybe, Turma 10, Tribo A</p></footer>
 </body>
 </html> 
