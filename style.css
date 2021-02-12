@@ -9,8 +9,13 @@ body {
 body, div#box-logo-do-site {
     background-color: #5c88c4;
 }
+
 #foto-perfil {
-    width: 600px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
 
 p, h3, li {
@@ -67,4 +72,9 @@ h2.section-title {
 }
 li.item-lista-skill {
     list-style-type: none;
+}
+img#logo-do-site {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
