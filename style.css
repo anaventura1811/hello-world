@@ -13,9 +13,9 @@ body, div#box-logo-do-site {
 }
 
 #foto-perfil {
-    width: 300px;
-    display: block;
-    -ms-grid-row-align: baseline;
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-left: 40%;
     margin-right: auto;
     border-radius: 50%;
@@ -105,34 +105,28 @@ a.links-no-texto {
     font-style: oblique;
 }
 
-div.skill {
+div.skill, div#skills {
     display: grid;
-    background-color: beige;
+    float: inline-start;
     padding: 20px, 20px;
-    scroll-padding-bottom: 10px;
-    margin-left: 50%;
-    margin-right: 22%;
-    border-radius: 50%;
     text-align: center;
-    border-radius: 50%;
-    width:250px;
-    height: 250px;
-    grid-template-columns: 1fr;
+    background-color: #004aad;
+    border-radius: 10%;
+    color: white;
 }
 
-div#skills {
-    background-color: inherit;
-    display: grid;
-    padding-right: 20px;
-}
-div#foto-container {
+ div#foto-container {
     background-color:  #b1d8b7;
     padding-top: 20px;
     padding-right: 20px;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
-    margin-left: 50%;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 40%;
+    margin-right: auto;
+    table-layout: auto;
 }
 
 p, div#profile  {
@@ -142,6 +136,6 @@ p, div#profile  {
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
