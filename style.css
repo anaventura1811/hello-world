@@ -67,6 +67,12 @@ div#box-logo-do-site, div#sobre, div#contato, div#skills, div#projects {
     padding: 60px;
 }
 
+div#box-logo-do-site, #logo-do-site {
+    align-items: center;
+    padding-left: 90px;
+}
+
+
 div#sobre, div#contato {
     background-color: #5CB8E0;
 }
@@ -156,5 +162,8 @@ h2 {
 li.skills-itens {
     font-size: 1.5rem;
 }
+ul span.item-impar {
+    font-weight: 800;
+    color: #004aad;
+}
 
-#5CB8E0
