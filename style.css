@@ -1,32 +1,19 @@
-h1, a#retorne-ao-inicio, h2.section-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h1 {
-    margin-right: 0%;
+html {
+    box-sizing: border-box;
 }
 
+h1, a#retorne-ao-inicio, h2.section-title { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 
 body {
-    font-size: 16px;
-}
-body, div#box-logo-do-site {
     background-color: #5c88c4;
+    font-size: 16px;
+    width: 85%;
 }
 
-#foto-perfil {
-    width: 350px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 40%;
-    margin-right: auto;
-    border-radius: 50%;
-
-}
-
-
-p, h3, li, a#link-do-linkedin, a#retorne-ao-inicio {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
+/*Navigation Styles*/
 
 .navigation {
     font-size: 25px;
@@ -40,132 +27,122 @@ p, h3, li, a#link-do-linkedin, a#retorne-ao-inicio {
     text-align: center;
 }
 
-.navigation li {
+.navigation li, p {
     padding: 0 20px;
     display: inline-block;
     color: white;
-}
-
-
-h3, ul.lista-skills, li.item-lista-skill, h2.section-title { 
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-a.menu-itens {
+
+a.menu-itens, li.skills-itens {
     text-decoration: none;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 } 
 
-#site, #logo-do-site, div#contato {
-    width: 90%;
-    padding-left: 20px;
-    padding-top: 20px;
-}
+/*Menu-Nav Bar. Uso do seletor hover. Fonte: https://www.w3schools.com/cssref/sel_hover.asp */
 
-h2.section-title, ul.lista-skills, li.item-lista-skill {
-    letter-spacing: 1px;
-    
-}
-ul.lista-skills, li.item-lista-skill { 
-    font-weight: 400; 
-}
-
-h2.section-title {
-    font-weight: 700;
-}
-h3 {
-    font-weight: 600;
-    font-size: 2em;
-    letter-spacing: 2px;
-
-}
-
-h2.section-title, h1.section-title{
-    font-size: 3em;
-}
-
-li.item-lista-skill {
-    list-style-type: none;
-}
-img#logo-do-site {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-div#profile,  div#projetos-pessoais {
-    display: inline-block;
-    background-blend-mode: soft-light;
-    padding: 20px;
-    color: #091d38;
-
-}
-div#profile {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-right: 50%;
-}
-
-a.links-no-texto {
+a.in-text-links {
+    color: #5347C4; 
     text-decoration: none;
-    color: white;
-    font-style: oblique;
 }
 
-div.skill, div#skills {
-    display:-ms-grid;
-    padding-bottom: 40px;
-    padding-top: 20px;
+a:hover {
+    color: aquamarine;
+}
+
+ul.lista-skills, li.skills-itens {
+    letter-spacing: 1px;
+    font-weight: 400; 
     text-align: center;
-    background-color: #091d38;
-    width: fit-content;
-    height:fit-content;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 60%;
-    border-top-right-radius: 60%;
-    border-top-left-radius: 60%;
+    list-style: none;
+}
+
+/*Main Sections*/
+
+div#box-logo-do-site, div#sobre, div#contato, div#skills, div#projects {
+    height: 100vh;
+    width: 100vw;
+    padding: 60px;
+}
+
+div#sobre, div#contato {
+    background-color: #5CB8E0;
+}
+/*Headings*/
+ h1.section-title {
     color: white;
-    width: 80%;
-    text-orientation:sideways-right;
-    margin-left: 20%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/*Footer*/
+footer#footer-container {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Content-Container*/
+
+.content-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 30px, 40px;
+}
+
+
+p {
+    font-size: 1.75rem;
+}
+
+#profile-photo {
+    flex-basis: 10%;
+    width: 350px;
+    border-radius: 100%;
+}
+div#profile-photo-container {
+    border-radius: 100%;
+    width: 500px;
+    height:fit-content;
+}
+h3  {
+    text-align: center;
+    color:#5347C4;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    padding: -30px;
+}
+
+span#destaque-profile {
+    font-weight: 600;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+span#location {
+    font-weight: 900;
+    color:#5347C4;
+}
+
+div.skills-section {
+    flex-basis: 80%;
+    align-items: center;
+    margin: 30px;
+    border-radius: 40%;
+    justify-content: center;
     
 }
-
- div#foto-container {
-    background-color:  #b1d8b7;
-    padding-top: 20px;
-    padding-right: 20px;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 50%;
-    margin-right: auto;
-    table-layout: auto;
-    display:table-cell;
-}
-div#sobre {
-    display:inline-block;
-    margin-left: 10%;
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #5347c4;
     text-align: center;
 }
-
-main {
-    display:flexbox;
-    padding-left: auto;
-    text-overflow: ellipsis;
-    text-anchor: middle;
-    text-orientation: sideways-right;
+li.skills-itens {
+    font-size: 1.5rem;
 }
 
-p#foto-container {
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 0.5em;
-}
-
-a#link-do-linkedin { 
-    text-align: center;
-    margin-left: 45%;
-}
-p#localizacao {
-    font-weight: 700;
-}
+#5CB8E0
