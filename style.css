@@ -169,4 +169,37 @@ ul span.item-impar {
     font-weight: 800;
     color: #004aad;
 }
+/*Formulário Seção Contact*/
+input#name, input#email, input#message {
+    background-color:rgb(120, 211, 214);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    opacity: 0.75;
+    border-style:dashed;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    display: inline-flex;
+}
 
+input#name, input#email {
+}
+
+input#message {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 140px;
+    margin: 5px;
+}
+
+
+input#submit-info {
+    border-style:dashed;
+    text-align: center;
+    background-color:rgb(120, 211, 214);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
