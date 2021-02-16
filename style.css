@@ -35,7 +35,7 @@ body {
     text-align: center;
 }
 
-a.menu-itens, li.skills-itens {
+a.menu-itens, li.skills-itens, a#retorne-ao-inicio {
     text-decoration: none;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -48,7 +48,7 @@ a.in-text-links {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a#retorne-ao-inicio:hover{
     color: aquamarine;
 }
 
@@ -73,7 +73,7 @@ div#box-logo-do-site, #logo-do-site {
 }
 
 
-div#sobre, div#contato {
+div#sobre, div#projects{
     background-color: #5CB8E0;
 }
 /*Headings*/
@@ -151,8 +151,11 @@ div.skills-section {
     margin: 30px;
     border-radius: 40%;
     justify-content: center;
-    
+    background-color: rgb(120, 211, 214);
+    padding: 30px;
+    padding-right: 40px;
 }
+
 h2 {
     font-size: 2.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -160,7 +163,7 @@ h2 {
     text-align: center;
 }
 li.skills-itens {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 ul span.item-impar {
     font-weight: 800;
