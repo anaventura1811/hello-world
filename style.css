@@ -89,7 +89,7 @@ footer#footer-container {
     align-items: center;
     justify-content: center;
     flex: 1;
-    padding: 30px, 40px;
+    padding: 60px, 40px;
 }
 
 
@@ -100,24 +100,36 @@ p {
 #profile-photo {
     flex-basis: 10%;
     width: 350px;
-    border-radius: 100%;
+    height: auto;
+    border-top-right-radius: 48%;
+    border-bottom-left-radius: 45%;
+    padding: 15px;
 }
+
 div#profile-photo-container {
-    border-radius: 100%;
-    width: 500px;
-    height:fit-content;
+    width: 300mw;
+    height: 300mh;
+    padding: 20px;
+    background-color: #599EF7;
+    border-bottom-left-radius: 45%;
+    border-top-right-radius: 45%;
 }
+
+
 h3  {
     text-align: center;
     color:#5347C4;
     letter-spacing: 1px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
-    padding: -30px;
+    padding: 30px;
+    font-size: 1.25rem;
+
 }
 
 span#destaque-profile {
     font-weight: 600;
+    font-size: 2rem;
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
