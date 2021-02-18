@@ -192,7 +192,7 @@ ul span.item-impar {
 }
 
 /*Formulário Seção Contact*/
-input#name, input#email, input#message {
+input#name, input#email, textarea {
     background-color:rgb(120, 211, 214);
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -205,7 +205,7 @@ input#name, input#email, input#message {
     display: inline-flex;
 }
 
-input#message {
+textarea {
     display: flex;
     flex: 1;
     align-items: center;
@@ -226,4 +226,9 @@ input#submit-info {
 footer#footer-container div a#retorne-ao-inicio {
     font-size: 1.2rem;
     color: white;
+}
+
+
+#clearfix {
+    clear: both;
 }
