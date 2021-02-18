@@ -20,7 +20,7 @@
  <div id="box-logo-do-site"><img src="Fotos/Logo-Portfolio.png" id="logo-do-site" alt="Logotipo do site" title="Logo of Portofolio"></div> 
  <br><br>
  <main>
-    <div id="sobre"><h1 class="section-title">About</h1><h3>
+    <div id="sobre"><h2 class="section-title">About</h2><h3>
         <div class="content-container"><p>Full-Stack 
             Web Development Student at <a href="http://" class="in-text-links" target="_blank">Trybe</a> (Class 10 | Trybe A | February 2021). In addition,
             I am also a PhD candidate in Sociology at Universidade Federal de Sergipe 
@@ -33,8 +33,8 @@
             Minas Gerais, Brazil</span>, but Aracaju (Sergipe, and all of Northeast Brazil, to be honest) feels 
             like my second home.</p>
             <div id= "profile-photo-container"><img id="profile-photo" src="./Fotos/Ana-Ventura-Perfil.jpg" alt="Photo Ana Ventura" title="Photo of Ana Ventura">
-                <h3><span id="destaque-profile">ANA VENTURA </span><br>
-                    Web Development Student, Social Sciences Researcher and Communicator based in Brazil</h3>
+                <h2><span id="destaque-profile">ANA VENTURA</span>
+                    <br> Web Development Student based in Brazil</h2>
             </div> 
         <p> I am also a cook and a blog writer in my spare time. Strongly moved 
              by technology, research, education and human rights. I love learning new things, and 
@@ -48,10 +48,10 @@
         </div>
     </div>
 
-    <div id="skills"><h1 class="section-title"> Skills</h1>
+    <div id="skills"><div class="section-title"><h2 class="section-title"> Skills</h2></div>
         <div class="content-container">
             
-            <div class="skills-section"><h2>Web Developer <br> and <br> Web Design Skills</h2>
+            <div class="skills-section"><h3>Web Developer <br> and <br> Web Design Skills</h3>
                 <ul>
                     <li class="skills-itens"><span class="item-impar">Git & GitHub</span></li> <br>
                     <li class="skills-itens">Command lines</li> <br>
@@ -62,19 +62,19 @@
                 </ul>
              <br>
             </div>
-            <div class="skills-section"><h2>Communicator, Translator and Consultant</h2>
+            <div class="skills-section"><h3>Communicator, Translator and Consultant</h3>
                 <ul>
-                    <li class="skills-itens"> <span class="item-impar">Fluency in English and Native Portuguese Speaker (can speak a little bit of Spanish as well)</span></li> <br>
-                    <li class="skills-itens"> More than 7 years of experience in Translation (mainly, English-Portuguese) </li> <br>
+                    <li class="skills-itens"> <span class="item-impar">Fluency in English and Native Portuguese Speaker (can speak a little bit of Spanish as well)</span></li><br>
+                    <li class="skills-itens"> Translation (mainly, English-Portuguese) </li><br>
                     <li class="skills-itens"><span class="item-impar"> Comprehensive experience in events coordination</span></li><br><br>
                 </ul>
             </div>
             <br>
-            <div class="skills-section"><h2>Social Sciences Researcher</h2>
+            <div class="skills-section"><h3>Social Sciences Researcher</h3>
                 <ul>
-                    <li class="skills-itens"><span class="item-impar">Comparative Studies</span></li> <br>
-                    <li class="skills-itens">Mixed methods for research in Social Sciences</li> <br>
-                    <li class="skills-itens"><span class="item-impar">Public policy analysis</span></li> <br>
+                    <li class="skills-itens"><span class="item-impar">Comparative Studies</span></li><br>
+                    <li class="skills-itens">Mixed methods for research in Social Sciences</li><br>
+                    <li class="skills-itens"><span class="item-impar">Public policy analysis</span></li><br><br>
                     <li class="skills-itens"> Consistent research on human rights, 
                         international politics, migration and refugees</li><br>
                 </ul>
@@ -82,26 +82,30 @@
         </div>
     </div>
 
-    <div id="projects"><h1 class="section-title">Projects</h1>
+    <div id="projects"><h2 class="section-title">Projects</h2>
         <div class="content-container"></div>
     </div>
 
-    <div id="contato"><h1 class="section-title">Contact</h1>
-        <div class="content-container">
-            <form action="form.txt" method="get">
-                <input id="name" type="text" name="Full name" value="Full name">
+    <div id="contato"><h2 class="section-title">Contact</h2>
+        <section class="content-container">
+            <form action="action_page.php" method="get">
+                <input id="name" type="text" name="fullname" value="Full name">
                 <input id="email" type="email" name="Email" value="Email">
-                <input id="message" type="text" name="message" value="Type your message">
-                <input id="submit-info" type="button" value="Submit">
+                <textarea name="msg" placeholder="Write your message here"></textarea>
+                <input id="submit-info" type="submit" value="Submit">
             </form>
-        </div>
+        </section>
     </div>
 
 
 </main>
 
-<div><a href="#box-logo-do-site" id="retorne-ao-inicio">Return to the top</a></div>
-<br><br><br><br>
- <footer id="footer-container"> 2021. All rights reserved to Ana Ventura. First website developed as a Trybe Student | Class 10 | Trybe A. </footer>
+
+
+ <footer id="footer-container"><br><br><div><a href="#box-logo-do-site" id="retorne-ao-inicio">Return to the top</a></div>
+    <br><br><br><br>
+    <div id="social-media"></div>
+     2021. All rights reserved to Ana Ventura. First website developed as a Trybe Student | Class 10 | Trybe A. </footer>
+     <div id="clearfix"></div>
 </body>
 </html> 
