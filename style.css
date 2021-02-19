@@ -233,3 +233,7 @@ footer#footer-container div a#retorne-ao-inicio {
 #clearfix {
     clear: both;
 }
+
+ul li.skills-itens::before {
+    content: "⇨ "  
+}
